@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Betonski proizvodi visoke kvalitete - program betonskih opločnika, cestovnih i kanalizacijskih elemenata, specijalnih proizvoda te betonske galanterije.">
+  <title>Betonski proizvodi visoke kvalitete - EUROBETON</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" style="position:absolute;left:-9999px;">Preskoči na sadržaj</a>
+
+  <header class="site-header" id="header">
+    <div class="site-header__wrap">
+      <div class="container site-header__top">
+        <a href="#o-nama">O nama</a>
+        <a href="#">Preuzimanja</a>
+      </div>
+      <div class="container site-header__inner">
+        <a href="index.html" class="site-logo" aria-label="EUROBETON – početna">
+          <img src="assets/logo/eurobeton-logo.svg" alt="EUROBETON" width="160" height="44">
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Otvori izbornik" aria-expanded="false" aria-controls="nav-panel">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="nav-panel" id="nav-panel" aria-label="Glavna navigacija">
+          <button class="nav-close" type="button" aria-label="Zatvori izbornik">&times;</button>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Početna</a></li>
+            <li class="nav-item nav-item--has-dropdown">
+              <div class="nav-link-row">
+                <a href="#proizvodi">Proizvodni program</a>
+                <button class="nav-dropdown-toggle" type="button" data-dropdown-toggle aria-expanded="false" aria-label="Proširi izbornik">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M1.5 4L6 8L10.5 4" stroke="currentColor" stroke-width="1.5"/></svg>
+                </button>
+              </div>
+              <div class="nav-dropdown nav-megamenu">
+                <div class="nav-megamenu__col">
+                  <h4>Betonski opločnici</h4>
+                  <a href="#">Classic line</a>
+                  <a href="#">Elegant</a>
+                  <a href="#">Traditional line</a>
+                  <a href="#">Ploče</a>
+                </div>
+                <div class="nav-megamenu__col">
+                  <h4>Cestovni program</h4>
+                  <a href="#">Cestovni rubnjaci</a>
+                  <a href="#">Kanalete</a>
+                  <a href="#">Mostovni rubnjaci</a>
+                </div>
+                <div class="nav-megamenu__col">
+                  <h4>Ostalo</h4>
+                  <a href="#">Kanalizacijski program</a>
+                  <a href="#">Betonska galanterija</a>
+                  <a href="#">Specijalni program</a>
+                  <a href="#">Agregati</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#">Prodajna mjesta</a></li>
+            <li class="nav-item nav-item--cta"><a class="btn btn--accent" href="#kontakt">Kontakt</a></li>
+          </ul>
+          <div class="nav-utils">
+            <div class="lang-switch" aria-label="Jezik">
+              <a href="#" hreflang="en" title="English"><img src="assets/icons/en.svg" alt="EN" width="22" height="15"></a>
+              <a href="#" hreflang="de" title="Deutsch"><img src="assets/icons/de.svg" alt="DE" width="22" height="15"></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-label="Uvod">
+      <div class="hero__slides">
+        <div class="hero__slide is-active">
+          <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1920&q=80" alt="Uređen javni prostor s betonskim opločnicima" width="1920" height="1080">
+        </div>
+        <div class="hero__slide">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80" alt="Građevinski projekt s betonskim elementima" width="1920" height="1080">
+        </div>
+        <div class="hero__slide">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80" alt="Proizvodnja betonskih proizvoda" width="1920" height="1080">
+        </div>
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content container">
+        <h1 class="hero__title">Betonski proizvodi visoke kvalitete za svaki projekt</h1>
+        <p class="hero__subtitle">EUROBETON je vodeći hrvatski proizvođač visokokvalitetnih betonskih elemenata za građevinarstvo i uređenje okoliša, uključujući opločnike, rubnjake, cijevi, kanalizacijske sustave i specijalne betonske elemente.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#proizvodi">Proizvodni program</a>
+          <a class="btn btn--outline" href="#kontakt">Pošaljite upit</a>
+        </div>
+      </div>
+      <div class="hero__arrows">
+        <button class="hero__arrow hero__arrow--prev" type="button" aria-label="Prethodna slika">
+          <svg class="circle-arrow-btn__icon" viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="hero__arrow hero__arrow--next" type="button" aria-label="Sljedeća slika">
+          <svg class="circle-arrow-btn__icon" viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Znanje, transport, rješenja -->
+    <section class="beam" aria-labelledby="beam-heading">
+      <div class="beam__pattern" aria-hidden="true"></div>
+      <div class="container beam__inner">
+        <header class="beam__header">
+          <h2 class="beam__heading" id="beam-heading">Što nudimo?</h2>
+          <span class="beam__accent" aria-hidden="true"></span>
+        </header>
+        <div class="beam__grid">
+          <article class="beam__card">
+            <div class="beam__icon-wrap">
+              <svg class="beam__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span class="beam__label">Znanje i iskustvo</span>
+          </article>
+          <article class="beam__card">
+            <div class="beam__icon-wrap">
+              <svg class="beam__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11"/><path d="M15 18h2"/><path d="M19 18h2"/><circle cx="7" cy="18" r="2"/><path d="M9 18h6"/></svg>
+            </div>
+            <span class="beam__label">Podrška i transport</span>
+          </article>
+          <article class="beam__card">
+            <div class="beam__icon-wrap">
+              <svg class="beam__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="beam__label">Trajna rješenja</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sekcija proizvoda -->
+    <section class="section-products-dark" id="proizvodi" aria-labelledby="products-heading">
+      <div class="container">
+        <div class="section-intro">
+          <h2 id="products-heading">Betonski proizvodi visoke kvalitete</h2>
+          <p>Program EUROBETON d.d. obuhvaća širok spektar proizvoda, uključujući opločnike, cestovne i kanalizacijske elemente, specijalne proizvode uz ostalu betonsku galanteriju i agregate idealnih za infrastrukturalne projekte.</p>
+        </div>
+        <div class="products-grid">
+          <article class="product-card">
+            <a href="#" class="product-card__circle">
+              <img src="assets/images/proizvodi/oplocnici.webp" alt="Betonski opločnici" width="200" height="160" loading="lazy">
+            </a>
+            <h3 class="product-card__title"><a href="#">Betonski opločnici</a></h3>
+          </article>
+          <article class="product-card">
+            <a href="#" class="product-card__circle">
+              <img src="assets/images/proizvodi/cestovni.webp" alt="Cestovni program" width="200" height="160" loading="lazy">
+            </a>
+            <h3 class="product-card__title"><a href="#">Cestovni program</a></h3>
+          </article>
+          <article class="product-card">
+            <a href="#" class="product-card__circle">
+              <img src="assets/images/proizvodi/kanalizacijski.webp" alt="Kanalizacijski program" width="200" height="160" loading="lazy">
+            </a>
+            <h3 class="product-card__title"><a href="#">Kanalizacijski program</a></h3>
+          </article>
+          <article class="product-card">
+            <a href="#" class="product-card__circle">
+              <img src="assets/images/proizvodi/galanterija.webp" alt="Betonska galanterija" width="200" height="160" loading="lazy">
+            </a>
+            <h3 class="product-card__title"><a href="#">Betonska galanterija</a></h3>
+          </article>
+          <article class="product-card">
+            <a href="#" class="product-card__circle">
+              <img src="assets/images/proizvodi/specijalni.webp" alt="Specijalni program" width="200" height="160" loading="lazy">
+            </a>
+            <h3 class="product-card__title"><a href="#">Specijalni program</a></h3>
+          </article>
+          <article class="product-card">
+            <a href="#" class="product-card__circle">
+              <img src="assets/images/proizvodi/agregati.webp" alt="Agregati" width="200" height="200" loading="lazy">
+            </a>
+            <h3 class="product-card__title"><a href="#">Agregati</a></h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- O nama -->
+    <section class="section-about" id="o-nama" aria-labelledby="about-heading">
+      <div class="section-about__pattern" aria-hidden="true"></div>
+      <div class="container section-about__inner">
+        <h2 id="about-heading">Kvaliteta, inovacija i vizija u proizvodnji betonskih proizvoda</h2>
+        <div class="about-columns">
+          <div>
+            <p>S početkom kao obrtnička zadruga prije stotinu godina, EUROBETON d.d. danas je vodeći proizvođač betonskih proizvoda koji se ističe po svojoj posvećenosti kvaliteti i inovaciji.</p>
+            <p>Naša snaga leži u najkvalitetnijim šljunčanim ležištima na gotovo milijun kvadratnih metara, što nam osigurava lidersku poziciju u regiji.</p>
+          </div>
+          <div>
+            <p>Naša tvrtka kontinuirano prati najnovije tehnološke trendove kako bismo ostvarili prepoznatljive proizvode tržištu po visokoj kvaliteti i pouzdanosti, često korišteni u svim značajnim građevinskim projektima u Hrvatskoj.</p>
+            <p>Naša specijalizacija je proizvodnja visokokvalitetnih opločnika za uređenje okoliša, vrtnih i cestovnih rubnjaka te kanalizacijskih sustava koji zadovoljavaju najstrože standarde.</p>
+          </div>
+        </div>
+        <div class="about-cta">
+          <a class="btn btn--outline" href="#">Saznajte više</a>
+        </div>
+        <div class="stats-grid" role="list">
+          <div class="stat" role="listitem">
+            <span class="stat__number" data-count="3000" data-suffix="+">0</span>
+            <span class="stat__label">Klijenata</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__number" data-count="100">0</span>
+            <span class="stat__label">Godina tradicije</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__number" data-count="7">0</span>
+            <span class="stat__label">Stručnjaka</span>
+          </div>
+          <div class="stat" role="listitem">
+            <span class="stat__number" data-count="50" data-suffix="+">0</span>
+            <span class="stat__label">Proizvoda</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA kontakt -->
+    <section class="section-cta" id="kontakt" aria-labelledby="cta-heading">
+      <div class="section-cta__bg">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80" alt="Proizvodnja betonskih proizvoda" width="1920" height="1080" loading="lazy">
+      </div>
+      <div class="section-cta__overlay" aria-hidden="true"></div>
+      <div class="container">
+        <div>
+          <h2 id="cta-heading">Želite li dodatne informacije o određenom proizvodu?</h2>
+          <div class="section-cta__actions">
+            <a class="btn btn--accent" href="#proizvodi">Proizvodni program</a>
+            <a class="btn btn--accent" href="mailto:eurobeton@eurobeton.hr">Kontaktirajte nas &rarr;</a>
+          </div>
+        </div>
+        <div class="section-cta__contact">
+          <h3>EUROBETON d.d.</h3>
+          <p>Kalmana Mesarića 38, 40323 Prelog – Hrvatska</p>
+          <p><a href="mailto:eurobeton@eurobeton.hr">eurobeton@eurobeton.hr</a></p>
+          <p><a href="tel:+38540645124">+385 (0)40 645 124</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google recenzije -->
+    <section class="section-reviews" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="reviews-summary">
+          <div class="reviews-summary__brand">
+            <svg class="reviews-summary__google" viewBox="0 0 24 24" aria-hidden="true" width="28" height="28">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+            </svg>
+            <div>
+              <p class="reviews-summary__label" id="reviews-heading">Google ocjena – EUROBETON</p>
+              <p class="reviews-summary__count">Ukupno <strong>30</strong> recenzija</p>
+            </div>
+          </div>
+          <div class="reviews-summary__score">
+            <span class="reviews-summary__rating">4.5</span>
+            <div class="review-stars review-stars--lg" aria-label="Ocjena 4.5 od 5">
+              <span class="review-stars__track" aria-hidden="true">★★★★★</span>
+              <span class="review-stars__fill" style="--rating: 4.5" aria-hidden="true">★★★★★</span>
+            </div>
+          </div>
+          <a class="btn btn--outline-light reviews-summary__link" href="https://search.google.com/local/reviews?placeid=ChIJqcA4efXWZUcRxx_G4dBpMAY" target="_blank" rel="noopener noreferrer">Pogledaj sve recenzije</a>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <header class="review-card__header">
+              <div class="review-card__avatar" style="--avatar-bg: #5c6b7a" aria-hidden="true">MT</div>
+              <div class="review-card__meta">
+                <div class="review-card__top">
+                  <span class="review-card__author">Milan Tanasković</span>
+                  <svg class="review-card__google" viewBox="0 0 24 24" aria-hidden="true" width="18" height="18">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                  </svg>
+                </div>
+                <div class="review-card__rating-row">
+                  <div class="review-stars" aria-hidden="true">
+                    <span class="review-stars__track">★★★★★</span>
+                    <span class="review-stars__fill" style="--rating: 5">★★★★★</span>
+                  </div>
+                  <time class="review-card__date" datetime="2025-11-01">prije 2 mjeseca</time>
+                </div>
+              </div>
+            </header>
+            <p class="review-card__text">Brza usluga</p>
+          </article>
+
+          <article class="review-card">
+            <header class="review-card__header">
+              <div class="review-card__avatar" style="--avatar-bg: #3b98da" aria-hidden="true">RJ</div>
+              <div class="review-card__meta">
+                <div class="review-card__top">
+                  <span class="review-card__author">Ramo Jasarović</span>
+                  <svg class="review-card__google" viewBox="0 0 24 24" aria-hidden="true" width="18" height="18">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                  </svg>
+                </div>
+                <div class="review-card__rating-row">
+                  <div class="review-stars" aria-hidden="true">
+                    <span class="review-stars__track">★★★★★</span>
+                    <span class="review-stars__fill" style="--rating: 5">★★★★★</span>
+                  </div>
+                  <time class="review-card__date" datetime="2025-09-15">prije 4 mjeseca</time>
+                </div>
+              </div>
+            </header>
+            <p class="review-card__text">Uslužni i vrijedni ljudi — odlični proizvodi.</p>
+          </article>
+
+          <article class="review-card">
+            <header class="review-card__header">
+              <div class="review-card__avatar" style="--avatar-bg: #758391" aria-hidden="true">NB</div>
+              <div class="review-card__meta">
+                <div class="review-card__top">
+                  <span class="review-card__author">Nebojša Božek</span>
+                  <svg class="review-card__google" viewBox="0 0 24 24" aria-hidden="true" width="18" height="18">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                  </svg>
+                </div>
+                <div class="review-card__rating-row">
+                  <div class="review-stars" aria-hidden="true">
+                    <span class="review-stars__track">★★★★★</span>
+                    <span class="review-stars__fill" style="--rating: 5">★★★★★</span>
+                  </div>
+                  <time class="review-card__date" datetime="2025-06-20">prije 7 mjeseci</time>
+                </div>
+              </div>
+            </header>
+            <p class="review-card__text">Rubnjaci, tlakovci, betonski elementi svih vrsta. Preporuka ako vam treba takva roba — normalne cijene.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="footer-logo">
+            <img src="assets/logo/eurobeton-logo.svg" alt="EUROBETON" width="180" height="50">
+          </a>
+          <address class="footer-address">
+            EUROBETON d.d.<br>
+            Kalmana Mesarića 38,<br>
+            40323 Prelog, Hrvatska
+          </address>
+          <p class="footer-hours">Radno vrijeme: Ponedjeljak – petak 7:00 – 15:00</p>
+        </div>
+        <div class="footer-contact">
+          <div class="footer-contact-item">
+            <svg class="footer-contact-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+38540645124">+385 (0)40 645 124</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+            <a href="mailto:eurobeton@eurobeton.hr">eurobeton@eurobeton.hr</a>
+          </div>
+        </div>
+        <div class="footer-help">
+          <h3>Potrebna pomoć?</h3>
+          <ul>
+            <li><a href="#kontakt">Pošaljite upit</a></li>
+            <li><a href="#">Česta pitanja</a></li>
+            <li><a href="#">Opći uvjeti poslovanja</a></li>
+            <li><a href="#">Novosti</a></li>
+            <li><a href="#">Prodajna mjesta</a></li>
+            <li><a href="#">Pravila privatnosti</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 EUROBETON d.d. Sva prava pridržana.</span>
+        <a href="#">Pravila privatnosti</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Natrag na vrh">
+    <svg class="circle-arrow-btn__icon" viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div class="cookie-banner" hidden>
+    <p>Koristimo kolačiće radi poboljšanja iskustva na stranici. Možete prihvatiti ili odbiti njihovu uporabu.</p>
+    <div class="cookie-banner__actions">
+      <button class="btn btn--primary cookie-accept" type="button">Slažem se</button>
+      <button class="btn btn--outline-light cookie-reject" type="button">Odbijam</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
